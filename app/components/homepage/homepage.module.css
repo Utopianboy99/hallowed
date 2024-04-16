@@ -1,0 +1,151 @@
+.bigbox{
+    width:100%;
+    display: block;
+    height: 110vh;
+    margin:3% 0px 50px 0px;
+
+}
+
+.box1{
+    width:96%;
+    height: 50%;
+    /* border:3px solid black; */
+    margin:0px 0px 0px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topsmallbox1{
+    flex-shrink: 0;
+    width:46%;
+    height:95%;
+    background-image: url(../../../public/Rectangle\ 44.png);
+    background-size: cover;
+    border:1px solid lime;
+    /* border-image: linear-gradient(to top, #00ff40, #3771cb); */
+}
+
+.skateText1{
+    margin:48% 0px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topsmallbox2{
+    width:46%;
+    height:95%;
+    border:1px solid #3771cb;
+    display: block;
+}
+
+.box2row1{
+    margin:3% 0px 0px 5%;
+    width:90%;
+    height:45%;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vids1{
+    width:40%;
+    height:90%;
+    /* border:1px solid red; */
+
+}
+
+.vidstext1{
+    /* border:1px solid red; */
+    height: 90%;
+    width:50%;
+}
+
+.box2row2{
+    margin:0px 0px 0px 5%;
+    width:90%;
+    height:45%;
+    /* border:1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vids2{
+    /* border:1px solid red; */
+    width:40%;
+    height:90%;
+}
+
+.vidstext2{
+    /* border:1px solid red; */
+    height:90%;
+    width:50%;
+}
+
+.bigtext1{
+    font-size:25px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family:'Notable'
+}
+
+.bigtext1 span{
+    /* border:1px solid lime; */
+    margin:1% 0px 0px 0px;
+    font-size: 16px;
+    font-family: 'Gruppo', sans-serif;
+}
+
+.box2{
+    margin:0px 0px 0px 2%;
+    width:96%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profSkaters{
+    width:21.5%;
+    height:95%;
+    border:1px solid darkblue; 
+}
+
+.profSkaters h3{
+    text-align: center;
+    /* color:lime; */
+    /* border:1px solid red; */
+    border-bottom:2px solid black;
+    margin:10px 15px 20px 15px;
+    padding:5px 0px 5px 0px;
+}
+
+.proSkater{
+    text-align: center;
+    padding:3px 20px;
+    margin:9.5px 10px 0px 10px;
+    /* border:1px solid red; */
+    border-radius:10px;
+}
+
+
+
+.proSkater:hover{
+    background-color:darkblue;
+    color:white;
+    /* background-color: rgba(143, 39, 39, 0.434); */
+}
+
+.reviews{
+    width:21.5%;
+    height:95%;
+    border:2px solid darkblue; 
+}
+
+.advert{
+    width:46%;
+    height:95%;
+    border:2px solid lime; 
+}
